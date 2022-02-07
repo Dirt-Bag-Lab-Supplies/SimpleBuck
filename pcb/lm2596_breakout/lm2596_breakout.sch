@@ -75,11 +75,6 @@ Wire Wire Line
 Wire Wire Line
 	6900 1950 6900 1850
 Connection ~ 6900 1850
-Wire Wire Line
-	6900 1850 7300 1850
-Wire Wire Line
-	7300 1950 7300 1850
-Connection ~ 7300 1850
 $Comp
 L power:GND #PWR0105
 U 1 1 61F68CDE
@@ -91,17 +86,6 @@ F 1 "GND" H 6900 1950 50  0000 C CNN
 F 2 "" H 6900 2100 50  0001 C CNN
 F 3 "" H 6900 2100 50  0001 C CNN
 	1    6900 2100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 61F68CE4
-P 7300 2100
-F 0 "#PWR0106" H 7300 1850 50  0001 C CNN
-F 1 "GND" H 7300 1950 50  0000 C CNN
-F 2 "" H 7300 2100 50  0001 C CNN
-F 3 "" H 7300 2100 50  0001 C CNN
-	1    7300 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -143,16 +127,16 @@ Connection ~ 3250 1650
 $Comp
 L SparkFun-Aesthetics:VCC #SUPPLY0102
 U 1 1 61FA9655
-P 7900 1750
-F 0 "#SUPPLY0102" H 7900 1750 50  0001 L BNN
-F 1 "VCC" H 7860 1890 50  0000 L BNN
-F 2 "" H 7900 1750 50  0001 C CNN
-F 3 "" H 7900 1750 50  0001 C CNN
-	1    7900 1750
+P 7000 1750
+F 0 "#SUPPLY0102" H 7000 1750 50  0001 L BNN
+F 1 "VCC" H 6960 1890 50  0000 L BNN
+F 2 "" H 7000 1750 50  0001 C CNN
+F 3 "" H 7000 1750 50  0001 C CNN
+	1    7000 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 1750 7900 1850
+	7000 1750 7000 1850
 Wire Wire Line
 	5550 1850 5750 1850
 Text Label 6150 2400 0    50   ~ 0
@@ -201,9 +185,7 @@ Wire Wire Line
 Connection ~ 4750 4150
 Wire Wire Line
 	4750 4150 4750 4050
-Wire Wire Line
-	4900 5150 4200 5150
-Text Label 4200 5150 0    50   ~ 0
+Text Label 6000 5250 0    50   ~ 0
 ENABLE
 $Comp
 L SparkFun-Aesthetics:VCC #SUPPLY0104
@@ -248,13 +230,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x04 J1
 U 1 1 61FD15A2
-P 5100 4250
-F 0 "J1" H 5100 4450 50  0000 C CNN
-F 1 "Conn_01x04" H 5100 3950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5100 4250 50  0001 C CNN
-F 3 "~" H 5100 4250 50  0001 C CNN
-	1    5100 4250
-	1    0    0    -1  
+P 5100 4350
+F 0 "J1" H 5100 4550 50  0000 C CNN
+F 1 "Conn_01x04" H 5100 4050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5100 4350 50  0001 C CNN
+F 3 "~" H 5100 4350 50  0001 C CNN
+	1    5100 4350
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	4750 4450 4750 4600
@@ -298,9 +280,9 @@ Text Label 6200 1550 0    50   ~ 0
 ISNS_LOW
 Text Label 6000 1400 0    50   ~ 0
 ISNS_HIGH
-Text Label 6000 5350 0    50   ~ 0
+Text Label 4400 5150 0    50   ~ 0
 ISNS_LOW
-Text Label 6000 5250 0    50   ~ 0
+Text Label 4400 5250 0    50   ~ 0
 ISNS_HIGH
 $Comp
 L power:GND #PWR0110
@@ -318,13 +300,8 @@ Wire Wire Line
 Wire Wire Line
 	6000 5450 6000 5500
 Wire Wire Line
-	6000 5350 5850 5350
-Wire Wire Line
-	5850 5250 6000 5250
-Wire Wire Line
 	6000 5150 5850 5150
-NoConn ~ 4900 5250
-NoConn ~ 4900 5350
+NoConn ~ 5850 5350
 $Comp
 L DBLS_Diode:VISHAY_SSA34HE3_A_I D1
 U 1 1 61FECDFE
@@ -364,55 +341,37 @@ F 10 "RES, CS, 2512, 0.05 OHM, 1%, 3.5W" H 5900 1850 50  0001 C CNN "description
 	1    0    0    -1  
 $EndComp
 $Comp
-L DBLS_Capacitor:TDK_C3216X5R1E336M160AC C3
-U 1 1 61FB0D92
-P 7300 2050
-F 0 "C3" H 7350 2125 40  0000 L CNN
-F 1 "TDK_C3216X5R1E336M160AC" H 6850 2900 50  0001 L CNN
-F 2 "Capacitors_SMD:C_1206" H 7300 2400 50  0001 C CNN
-F 3 "" H 7300 2275 20  0001 C CNN
-F 4 "33uF" H 7400 2000 30  0000 C CNN "capacitance"
-F 5 "TDK Corporation" H 7300 2800 50  0001 C CNN "mfg"
-F 6 "C3216X5R1E336M160AC" H 7300 2700 50  0001 C CNN "mfg_pn"
-F 7 "Digikey" H 7300 2600 50  0001 C CNN "vendor"
-F 8 "445-8046-2-ND" H 7300 2500 50  0001 C CNN "vendor_pn"
-F 9 "YES" H 7225 2125 20  0001 C CNN "place"
-F 10 "CAP CER 33UF 25V X5R 1206" H 7300 2050 50  0001 C CNN "description"
-	1    7300 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x04 J2
 U 1 1 61FB781F
-P 5100 5250
-F 0 "J2" H 5100 5450 50  0000 C CNN
-F 1 "Conn_01x04" H 5100 4950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5100 5250 50  0001 C CNN
-F 3 "~" H 5100 5250 50  0001 C CNN
-	1    5100 5250
-	1    0    0    -1  
+P 5100 5350
+F 0 "J2" H 5100 5550 50  0000 C CNN
+F 1 "Conn_01x04" H 5100 5050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5100 5350 50  0001 C CNN
+F 3 "~" H 5100 5350 50  0001 C CNN
+	1    5100 5350
+	1    0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J4
 U 1 1 61FB8504
-P 5650 5250
-F 0 "J4" H 5650 5450 50  0000 C CNN
-F 1 "Conn_01x04" H 5650 4950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5650 5250 50  0001 C CNN
-F 3 "~" H 5650 5250 50  0001 C CNN
-	1    5650 5250
-	-1   0    0    -1  
+P 5650 5350
+F 0 "J4" H 5650 5550 50  0000 C CNN
+F 1 "Conn_01x04" H 5650 5050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5650 5350 50  0001 C CNN
+F 3 "~" H 5650 5350 50  0001 C CNN
+	1    5650 5350
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J3
 U 1 1 61FB8C13
-P 5650 4250
-F 0 "J3" H 5650 4450 50  0000 C CNN
-F 1 "Conn_01x04" H 5650 3950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5650 4250 50  0001 C CNN
-F 3 "~" H 5650 4250 50  0001 C CNN
-	1    5650 4250
-	-1   0    0    -1  
+P 5650 4350
+F 0 "J3" H 5650 4550 50  0000 C CNN
+F 1 "Conn_01x04" H 5650 4050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 5650 4350 50  0001 C CNN
+F 3 "~" H 5650 4350 50  0001 C CNN
+	1    5650 4350
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -477,8 +436,6 @@ Wire Wire Line
 	3200 3050 3200 3000
 Wire Wire Line
 	3200 3000 3350 3000
-Wire Wire Line
-	7300 1850 7900 1850
 $Comp
 L SparkFun-Aesthetics:VCC #SUPPLY0106
 U 1 1 61FC3E6E
@@ -572,21 +529,30 @@ CW to Increase Voltage
 Text Notes 6700 2800 0    50   ~ 0
 Vout: 1.23V to 21V
 $Comp
-L DBLS_Capacitor:PANASONIC_EEU-EB2E101 C1
-U 1 1 61FDD64F
+L DBLS_Capacitor:RUBYCON_100ZLH100MEFC10X20 C1
+U 1 1 61FAB912
 P 3250 1800
 F 0 "C1" H 3300 1875 40  0000 L CNN
-F 1 "PANASONIC_EEU-EB2E101" H 2800 2650 50  0001 L CNN
-F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 3250 2150 50  0001 C CNN
+F 1 "RUBYCON_100ZLH100MEFC10X20" H 2800 2650 50  0001 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 3250 2150 50  0001 C CNN
 F 3 "" H 3250 2025 20  0001 C CNN
 F 4 "100uF" H 3350 1750 30  0000 C CNN "capacitance"
-F 5 "Panasonic Electronic Components" H 3250 2550 50  0001 C CNN "mfg"
-F 6 "EEU-EB2E101" H 3250 2450 50  0001 C CNN "mfg_pn"
+F 5 "Rubycon" H 3250 2550 50  0001 C CNN "mfg"
+F 6 "100ZLH100MEFC10X20" H 3250 2450 50  0001 C CNN "mfg_pn"
 F 7 "Digikey" H 3250 2350 50  0001 C CNN "vendor"
-F 8 "P5928-ND" H 3250 2250 50  0001 C CNN "vendor_pn"
+F 8 "1189-1887-ND" H 3250 2250 50  0001 C CNN "vendor_pn"
 F 9 "YES" H 3175 1875 20  0001 C CNN "place"
-F 10 "CAP ALUM 100UF 20% 250V RADIAL" H 3250 1800 50  0001 C CNN "description"
+F 10 "CAP ALUM 100UF 20% 100V RADIAL" H 3250 1800 50  0001 C CNN "description"
 	1    3250 1800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5850 5250 6000 5250
+NoConn ~ 4900 5350
+Wire Wire Line
+	6900 1850 7000 1850
+Wire Wire Line
+	4400 5150 4900 5150
+Wire Wire Line
+	4900 5250 4400 5250
 $EndSCHEMATC

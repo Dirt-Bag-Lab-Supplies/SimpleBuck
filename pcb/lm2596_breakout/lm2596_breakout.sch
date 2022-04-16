@@ -712,4 +712,12 @@ F 4 "DNI" H 8850 4050 50  0001 C CNN "place"
 	1    8850 4050
 	1    0    0    -1  
 $EndComp
+Text Notes 5700 1250 0    50   ~ 0
+TODO: Move R4 this to other side of caps
+Text Notes 4950 3200 0    50   ~ 0
+TODO: Move R3 to be in parallel with current feedback fet
+Text Notes 4950 5900 0    50   ~ 0
+TODO: Consider making these breadboard compatible
+Text Notes 8550 1150 0    50   ~ 0
+TODO: Update to correct values
 $EndSCHEMATC

@@ -479,10 +479,6 @@ F 8 "yes" H 6950 3900 20  0001 C CNN "place"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7150 3950 7250 3950
-Wire Wire Line
-	7450 3950 7750 3950
-Wire Wire Line
 	7750 5900 7750 3950
 Wire Wire Line
 	7750 3950 7950 3950
@@ -1770,4 +1766,8 @@ Wire Wire Line
 Connection ~ 6000 3650
 Wire Wire Line
 	6000 3650 6300 3650
+Wire Wire Line
+	7150 3950 7250 3950
+Wire Wire Line
+	7450 3950 7750 3950
 $EndSCHEMATC

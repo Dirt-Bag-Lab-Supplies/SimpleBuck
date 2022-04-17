@@ -432,6 +432,74 @@ X ~ 2 100 0 20 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# DBLS_Logo_DBLS_Chicken_Small
+#
+DEF DBLS_Logo_DBLS_Chicken_Small LOGO 0 40 N N 1 F N
+F0 "LOGO" 0 0 50 H I C CNN
+F1 "DBLS_Logo_DBLS_Chicken_Small" 0 0 50 H I C CNN
+F2 "DBLS_LOGO:Rooster_4mmx4mm" 30 150 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DNI" 0 0 50 H I C CNN "place"
+$FPLIST
+ *OSHW-LOGO-S*
+$ENDFPLIST
+DRAW
+T 0 0 -175 40 0 0 0 "Chicken Small" Normal 0 C C
+S -125 125 125 -150 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# DBLS_Logo_DBLS_van_logo_8mmX6mm
+#
+DEF DBLS_Logo_DBLS_van_logo_8mmX6mm LOGO 0 40 N N 1 F N
+F0 "LOGO" 0 0 50 H I C CNN
+F1 "DBLS_Logo_DBLS_van_logo_8mmX6mm" 0 0 50 H I C CNN
+F2 "DBLS_LOGO:van_logo_8mmX6mm" 30 150 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DNI" 0 0 50 H I C CNN "place"
+$FPLIST
+ *OSHW-LOGO-S*
+$ENDFPLIST
+DRAW
+T 0 0 -175 40 0 0 0 "DBLS Logo 8mm" Normal 0 C C
+S -125 125 125 -150 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# DBLS_Logo_DBLS_van_logo_8mmX6mm_mirror
+#
+DEF DBLS_Logo_DBLS_van_logo_8mmX6mm_mirror LOGO 0 40 N N 1 F N
+F0 "LOGO" 0 0 50 H I C CNN
+F1 "DBLS_Logo_DBLS_van_logo_8mmX6mm_mirror" 0 0 50 H I C CNN
+F2 "DBLS_LOGO:van_logo_8mmX6mm_mirror" 30 150 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DNI" 0 0 50 H I C CNN "place"
+$FPLIST
+ *OSHW-LOGO-S*
+$ENDFPLIST
+DRAW
+T 0 0 -175 40 0 0 0 "DBLS Logo 8mm" Normal 0 C C
+S -125 125 125 -150 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# DBLS_Logo_DBLS_van_logo_small_v1
+#
+DEF DBLS_Logo_DBLS_van_logo_small_v1 LOGO 0 40 N N 1 F N
+F0 "LOGO" 0 0 50 H I C CNN
+F1 "DBLS_Logo_DBLS_van_logo_small_v1" 0 0 50 H I C CNN
+F2 "DBLS_LOGO:van_logo_small" 30 150 20 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "DNI" 0 0 50 H I C CNN "place"
+$FPLIST
+ *OSHW-LOGO-S*
+$ENDFPLIST
+DRAW
+T 0 0 -175 40 0 0 0 "DBLS Logo Small" Normal 0 C C
+S -125 125 125 -150 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # DBLS_Misc_DBLS_TESTPOINT_NORMAL
 #
 DEF DBLS_Misc_DBLS_TESTPOINT_NORMAL TP 0 40 Y N 1 F N

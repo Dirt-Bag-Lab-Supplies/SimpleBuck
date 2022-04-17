@@ -1185,4 +1185,52 @@ F 10 "TRIMMER 20K OHM 0.25W PC PIN TOP" H 6500 5500 50  0001 C CNN "description"
 $EndComp
 Text Label 5350 4650 0    50   ~ 0
 V_SET
+$Comp
+L DBLS_Logo:DBLS_van_logo_small_v1 LOGO2
+U 1 1 6287A205
+P 6000 7450
+F 0 "LOGO2" H 6000 7450 50  0001 C CNN
+F 1 "DBLS_van_logo_small_v1" H 6000 7450 50  0001 C CNN
+F 2 "DBLS_LOGO:van_logo_small" H 6030 7600 20  0001 C CNN
+F 3 "" H 6000 7450 50  0001 C CNN
+F 4 "DNI" H 6000 7450 50  0001 C CNN "place"
+	1    6000 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DBLS_Logo:DBLS_Chicken_Small LOGO1
+U 1 1 6287A7A1
+P 5400 7450
+F 0 "LOGO1" H 5400 7450 50  0001 C CNN
+F 1 "DBLS_Chicken_Small" H 5400 7450 50  0001 C CNN
+F 2 "DBLS_LOGO:Rooster_4mmx4mm" H 5430 7600 20  0001 C CNN
+F 3 "" H 5400 7450 50  0001 C CNN
+F 4 "DNI" H 5400 7450 50  0001 C CNN "place"
+	1    5400 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DBLS_Logo:DBLS_van_logo_8mmX6mm LOGO3
+U 1 1 62886DDE
+P 6600 7450
+F 0 "LOGO3" H 6600 7450 50  0001 C CNN
+F 1 "DBLS_van_logo_8mmX6mm" H 6600 7450 50  0001 C CNN
+F 2 "DBLS_LOGO:van_logo_8mmX6mm" H 6630 7600 20  0001 C CNN
+F 3 "" H 6600 7450 50  0001 C CNN
+F 4 "DNI" H 6600 7450 50  0001 C CNN "place"
+	1    6600 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L DBLS_Logo:DBLS_van_logo_8mmX6mm_mirror LOGO4
+U 1 1 6289FCE0
+P 6600 6800
+F 0 "LOGO4" H 6600 6800 50  0001 C CNN
+F 1 "DBLS_van_logo_8mmX6mm_mirror" H 6600 6800 50  0001 C CNN
+F 2 "DBLS_LOGO:van_logo_8mmX6mm_mirror" H 6630 6950 20  0001 C CNN
+F 3 "" H 6600 6800 50  0001 C CNN
+F 4 "DNI" H 6600 6800 50  0001 C CNN "place"
+	1    6600 6800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
